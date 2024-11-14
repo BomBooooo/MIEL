@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.8.13 (sftp://zhengzengrong@192.168.70.23:22/home/zhengzengrong/miniconda3/envs/py38/bin/python3)" project-jdk-type="Python SDK" />
+</project>

@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21bf27f5-c1af-4203-ab27-a70c59dc7208" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_longExp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mae</find>
+      <find>factor</find>
+      <find>batch_size</find>
+      <find>features</find>
+      <find>adjust_learning_rate</find>
+      <find>seasonal_patterns</find>
+      <find>activation</find>
+      <find>p_hidden_dims</find>
+      <find>0.01</find>
+      <find>results</find>
+      <find>temporal_embedding</find>
+      <find>drop</find>
+      <find>data_y</find>
+      <find>window_len</find>
+      <find>weight_decay</find>
+      <find>train_len</find>
+      <find>we</find>
+      <find>pred_len</find>
+      <find>affine</find>
+      <find>print_args</find>
+      <find>parameters</find>
+      <find>logs_dir</find>
+      <find>use_dtw</find>
+      <find>logs</find>
+      <find>individual</find>
+      <find>inverse</find>
+      <find>model_id</find>
+      <find>random.choice</find>
+      <find>parma</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/run_ETTm2_MGN_Ablations_for_2.py" />
+        <option value="$PROJECT_DIR$/run_weather_MGN_0506_1.py" />
+        <option value="$PROJECT_DIR$/run_ETTm1_MGN_Ablations_for_2.py" />
+        <option value="$PROJECT_DIR$/run_ETTm2_MGN_0506_2.py" />
+        <option value="$PROJECT_DIR$/run_ETTm1_MGN_Ablations_for_1.py" />
+        <option value="$PROJECT_DIR$/run_ETTm2_MGN_Ablations_for_1.py" />
+        <option value="$PROJECT_DIR$/run_Solar_MGN_0506_1.py" />
+        <option value="$PROJECT_DIR$/run_ETTm2_Ablations_sum_0513.py" />
+        <option value="$PROJECT_DIR$/run_weather_Ablations_sum_0514.py" />
+        <option value="$PROJECT_DIR$/run_Solar_Ablations_sum_0514.py" />
+        <option value="$PROJECT_DIR$/run_weather_MGN_wl_0517.py" />
+        <option value="$PROJECT_DIR$/run_Solar_MGN_wl_0517.py" />
+        <option value="$PROJECT_DIR$/run_ECL_MGN_Ablations_for_0517_1.py" />
+        <option value="$PROJECT_DIR$/run_ETTm1_MGN_KCI_0521_add_1.py" />
+        <option value="$PROJECT_DIR$/run_ETTm1_MGN_KCI_0521_add_2.py" />
+        <option value="$PROJECT_DIR$/run_ECL_MGN_sl96_wltest_0522.py" />
+        <option value="$PROJECT_DIR$/run_ECL_MGN_sl96_wltest_0522_2.py" />
+        <option value="$PROJECT_DIR$/run_ETTh2_MGN_0527.py" />
+        <option value="$PROJECT_DIR$/run_ETTh1_MGN_0527.py" />
+        <option value="$PROJECT_DIR$/run_iTransformer_ECL.py" />
+        <option value="$PROJECT_DIR$/run_iTransformer_traffic_2880.py" />
+        <option value="$PROJECT_DIR$/run_iTransformer_traffic.py" />
+        <option value="$PROJECT_DIR$/run_DLinear_traffic.py" />
+        <option value="$PROJECT_DIR$/run_TimesNet_ETTm1.py" />
+        <option value="$PROJECT_DIR$/run_MGN_ETTm1.py" />
+        <option value="$PROJECT_DIR$/run_MICN_ETTm1.py" />
+        <option value="$PROJECT_DIR$/run_iTransformer_ETTm1.py" />
+        <option value="$PROJECT_DIR$/run_FiLM_ETTm1.py" />
+        <option value="$PROJECT_DIR$/run_PatchTST_ETTm1.py" />
+        <option value="$PROJECT_DIR$/run_traffic_MGN_sl336_wl_0521.py" />
+        <option value="$PROJECT_DIR$/run_traffic_MGN_test_0530.py" />
+        <option value="$PROJECT_DIR$/run_traffic_MGN_sl96_id_wl_test_0531_2.py" />
+        <option value="$PROJECT_DIR$/run_traffic_MGN_sl96_id_wl_test_0531_1.py" />
+        <option value="$PROJECT_DIR$/run_PatchTST_traffic.py" />
+        <option value="$PROJECT_DIR$/run_Solar_MGN_wl_0603.py" />
+        <option value="$PROJECT_DIR$/run_traffic_MGN_sl336_res_0601.py" />
+        <option value="$PROJECT_DIR$/run_DLinear_ETTm1.py" />
+        <option value="$PROJECT_DIR$/models/MGN_Linear_affine.py" />
+        <option value="$PROJECT_DIR$/data_provider/data_factory.py" />
+        <option value="$PROJECT_DIR$/utils/tools.py" />
+        <option value="$PROJECT_DIR$/exp/exp_basic.py" />
+        <option value="$PROJECT_DIR$/exp/exp_long_term_forecasting.py" />
+        <option value="$PROJECT_DIR$/exp/exp_long_term_forecasting_ori.py" />
+        <option value="$PROJECT_DIR$/scripts/PatchTST_ETTh1.sh" />
+        <option value="$PROJECT_DIR$/../Time-Series-Library-main_2408/Time-Series-Library-main/scripts/long_term_forecast/ETT_script/iTransformer_ETTh2.sh" />
+        <option value="$PROJECT_DIR$/utils/print_args.py" />
+        <option value="$PROJECT_DIR$/run_longExp.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/models/MILE.py" />
+        <option value="$PROJECT_DIR$/scripts/MILE_ETTh1.sh" />
+        <option value="$PROJECT_DIR$/data_provider/data_loader.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1240" />
+    <option name="height" value="665" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MIEL_0813_github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIEL_0813_github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MIEL_0813_github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIEL_0813_github" type="462c0819:PsiDirectoryNode" />
+              <item name="data_provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MIEL_0813_github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIEL_0813_github" type="462c0819:PsiDirectoryNode" />
+              <item name="exp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MIEL_0813_github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIEL_0813_github" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MIEL_0813_github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIEL_0813_github" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MIEL_0813_github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIEL_0813_github" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MGN-23-02.04" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MGN-23-02.04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_DLinear_ETTm1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MGN-23-02.04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_DLinear_ETTm1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_longExp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MGN-23-02.04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_longExp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_traffic_MGN_sl96_id_wl_test_0531_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MGN-23-02.04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_traffic_MGN_sl96_id_wl_test_0531_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_traffic_MGN_sl96_id_wl_test_0531_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MGN-23-02.04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_traffic_MGN_sl96_id_wl_test_0531_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.run_longExp" />
+        <item itemvalue="Python.run_DLinear_ETTm1" />
+        <item itemvalue="Python.run_traffic_MGN_sl96_id_wl_test_0531_1" />
+        <item itemvalue="Python.run_traffic_MGN_sl96_id_wl_test_0531_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21bf27f5-c1af-4203-ab27-a70c59dc7208" name="Default Changelist" comment="" />
+      <created>1707034914220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707034914220</updated>
+      <workItem from="1707034917195" duration="8034000" />
+      <workItem from="1707057644235" duration="4141000" />
+      <workItem from="1707643387810" duration="7285000" />
+      <workItem from="1708247178339" duration="73000" />
+      <workItem from="1708250723107" duration="797000" />
+      <workItem from="1708306866138" duration="501000" />
+      <workItem from="1708309432039" duration="1723000" />
+      <workItem from="1708311324501" duration="90000" />
+      <workItem from="1708327819864" duration="33000" />
+      <workItem from="1708328388243" duration="69000" />
+      <workItem from="1708338461973" duration="26000" />
+      <workItem from="1708395085951" duration="268000" />
+      <workItem from="1708399769643" duration="2536000" />
+      <workItem from="1708481869014" duration="158000" />
+      <workItem from="1708490685946" duration="149000" />
+      <workItem from="1708512556450" duration="54000" />
+      <workItem from="1708683670987" duration="77000" />
+      <workItem from="1708850849305" duration="1525000" />
+      <workItem from="1708852959652" duration="5162000" />
+      <workItem from="1708912991684" duration="1877000" />
+      <workItem from="1708925514480" duration="331000" />
+      <workItem from="1708933015099" duration="3529000" />
+      <workItem from="1708953903506" duration="803000" />
+      <workItem from="1708997511688" duration="1248000" />
+      <workItem from="1708999936625" duration="910000" />
+      <workItem from="1709048700896" duration="781000" />
+      <workItem from="1709049634021" duration="18000" />
+      <workItem from="1709049652852" duration="22000" />
+      <workItem from="1709088130143" duration="1452000" />
+      <workItem from="1709105211689" duration="1249000" />
+      <workItem from="1709172413728" duration="1708000" />
+      <workItem from="1709178177304" duration="726000" />
+      <workItem from="1709256840203" duration="1762000" />
+      <workItem from="1709287180921" duration="3179000" />
+      <workItem from="1709304699780" duration="3178000" />
+      <workItem from="1709346441735" duration="3372000" />
+      <workItem from="1709397247311" duration="452000" />
+      <workItem from="1709442367975" duration="480000" />
+      <workItem from="1709466772821" duration="2466000" />
+      <workItem from="1709536720344" duration="688000" />
+      <workItem from="1709623203648" duration="3338000" />
+      <workItem from="1709630934512" duration="971000" />
+      <workItem from="1709644418230" duration="638000" />
+      <workItem from="1709650929526" duration="1432000" />
+      <workItem from="1709689560618" duration="3000" />
+      <workItem from="1709691032119" duration="23000" />
+      <workItem from="1709777401996" duration="946000" />
+      <workItem from="1709815522969" duration="597000" />
+      <workItem from="1709816661622" duration="536000" />
+      <workItem from="1709817358353" duration="9000" />
+      <workItem from="1709819270682" duration="2535000" />
+      <workItem from="1709904619748" duration="933000" />
+      <workItem from="1709966070397" duration="3358000" />
+      <workItem from="1709976473117" duration="1793000" />
+      <workItem from="1710042019943" duration="1223000" />
+      <workItem from="1710123499755" duration="1909000" />
+      <workItem from="1710207817122" duration="2547000" />
+      <workItem from="1710221388559" duration="428000" />
+      <workItem from="1710250033160" duration="3068000" />
+      <workItem from="1710294757300" duration="2825000" />
+      <workItem from="1710316741119" duration="1980000" />
+      <workItem from="1710384513824" duration="9000" />
+      <workItem from="1710395406202" duration="610000" />
+      <workItem from="1710468380493" duration="694000" />
+      <workItem from="1710476940442" duration="3078000" />
+      <workItem from="1710480760279" duration="606000" />
+      <workItem from="1710566105396" duration="1996000" />
+      <workItem from="1710656523951" duration="4963000" />
+      <workItem from="1710725636098" duration="2374000" />
+      <workItem from="1710751111320" duration="757000" />
+      <workItem from="1710765112004" duration="19000" />
+      <workItem from="1710774146377" duration="11000" />
+      <workItem from="1710775134789" duration="1130000" />
+      <workItem from="1710812738993" duration="5449000" />
+      <workItem from="1710828871834" duration="112000" />
+      <workItem from="1710851396335" duration="527000" />
+      <workItem from="1710921984547" duration="160000" />
+      <workItem from="1710930987310" duration="106000" />
+      <workItem from="1710931094224" duration="5299000" />
+      <workItem from="1710986604804" duration="2973000" />
+      <workItem from="1711013374334" duration="180000" />
+      <workItem from="1711019860354" duration="1292000" />
+      <workItem from="1711096783727" duration="695000" />
+      <workItem from="1711167227795" duration="728000" />
+      <workItem from="1711239105237" duration="414000" />
+      <workItem from="1711239746423" duration="147000" />
+      <workItem from="1711269712519" duration="842000" />
+      <workItem from="1711326682341" duration="2383000" />
+      <workItem from="1711418989785" duration="1238000" />
+      <workItem from="1711431179584" duration="1201000" />
+      <workItem from="1711456048712" duration="810000" />
+      <workItem from="1711464020664" duration="997000" />
+      <workItem from="1711539579924" duration="629000" />
+      <workItem from="1711590758185" duration="1545000" />
+      <workItem from="1711604838920" duration="36000" />
+      <workItem from="1711610320142" duration="1879000" />
+      <workItem from="1711630995662" duration="603000" />
+      <workItem from="1711678385577" duration="5128000" />
+      <workItem from="1711756726821" duration="8000" />
+      <workItem from="1711791501808" duration="1814000" />
+      <workItem from="1711976099946" duration="858000" />
+      <workItem from="1711982688207" duration="39000" />
+      <workItem from="1712036124460" duration="9000" />
+      <workItem from="1712121692467" duration="323000" />
+      <workItem from="1712282738777" duration="2114000" />
+      <workItem from="1712366928159" duration="8000" />
+      <workItem from="1712664669189" duration="35000" />
+      <workItem from="1712668381223" duration="310000" />
+      <workItem from="1712713494019" duration="737000" />
+      <workItem from="1712718457554" duration="459000" />
+      <workItem from="1712799361426" duration="153000" />
+      <workItem from="1712846468617" duration="2027000" />
+      <workItem from="1712943218173" duration="562000" />
+      <workItem from="1712986140735" duration="3000" />
+      <workItem from="1713601166924" duration="1523000" />
+      <workItem from="1713604044753" duration="753000" />
+      <workItem from="1713754070613" duration="680000" />
+      <workItem from="1713779886083" duration="940000" />
+      <workItem from="1713790025060" duration="1878000" />
+      <workItem from="1713916974672" duration="242000" />
+      <workItem from="1713965008911" duration="241000" />
+      <workItem from="1713965398547" duration="7709000" />
+      <workItem from="1714096247345" duration="5291000" />
+      <workItem from="1714206290740" duration="36000" />
+      <workItem from="1714268608572" duration="2688000" />
+      <workItem from="1714354575564" duration="796000" />
+      <workItem from="1714960482234" duration="2382000" />
+      <workItem from="1715000279803" duration="922000" />
+      <workItem from="1715048075163" duration="316000" />
+      <workItem from="1715094569733" duration="394000" />
+      <workItem from="1715153957653" duration="2417000" />
+      <workItem from="1715382677192" duration="1108000" />
+      <workItem from="1715383994081" duration="510000" />
+      <workItem from="1715384590540" duration="459000" />
+      <workItem from="1715392238221" duration="101000" />
+      <workItem from="1715442226324" duration="621000" />
+      <workItem from="1715508686990" duration="2315000" />
+      <workItem from="1715564810451" duration="3681000" />
+      <workItem from="1715665958894" duration="1431000" />
+      <workItem from="1715751429106" duration="1120000" />
+      <workItem from="1715953476400" duration="894000" />
+      <workItem from="1716080794345" duration="628000" />
+      <workItem from="1716302446275" duration="869000" />
+      <workItem from="1716303398473" duration="118000" />
+      <workItem from="1716355814756" duration="4472000" />
+      <workItem from="1716431601923" duration="612000" />
+      <workItem from="1716434984729" duration="1306000" />
+      <workItem from="1716467440726" duration="635000" />
+      <workItem from="1716804182725" duration="295000" />
+      <workItem from="1716804589796" duration="423000" />
+      <workItem from="1716814259021" duration="342000" />
+      <workItem from="1716860903049" duration="3670000" />
+      <workItem from="1716873496318" duration="249000" />
+      <workItem from="1716903553698" duration="832000" />
+      <workItem from="1716937605811" duration="179000" />
+      <workItem from="1716948055299" duration="57000" />
+      <workItem from="1716948202754" duration="8576000" />
+      <workItem from="1716983824309" duration="4802000" />
+      <workItem from="1717034699469" duration="11352000" />
+      <workItem from="1717074764896" duration="1180000" />
+      <workItem from="1717120759909" duration="10852000" />
+      <workItem from="1717150054173" duration="1535000" />
+      <workItem from="1717166626797" duration="134000" />
+      <workItem from="1717171378924" duration="628000" />
+      <workItem from="1717174157821" duration="819000" />
+      <workItem from="1717204593375" duration="479000" />
+      <workItem from="1717205114952" duration="2478000" />
+      <workItem from="1717253439110" duration="1092000" />
+      <workItem from="1717306497168" duration="615000" />
+      <workItem from="1717379599025" duration="2275000" />
+      <workItem from="1717465583820" duration="1651000" />
+      <workItem from="1717552231747" duration="2005000" />
+      <workItem from="1717643528235" duration="463000" />
+      <workItem from="1717644509651" duration="873000" />
+      <workItem from="1718020794600" duration="1377000" />
+      <workItem from="1718070691646" duration="2924000" />
+      <workItem from="1718108899152" duration="2979000" />
+      <workItem from="1718164239644" duration="847000" />
+      <workItem from="1718170049705" duration="371000" />
+      <workItem from="1718336120773" duration="905000" />
+      <workItem from="1718543278823" duration="76000" />
+      <workItem from="1718588858621" duration="1195000" />
+      <workItem from="1718606952193" duration="631000" />
+      <workItem from="1718702941378" duration="562000" />
+      <workItem from="1718792714960" duration="742000" />
+      <workItem from="1719210251920" duration="642000" />
+      <workItem from="1719393856133" duration="216000" />
+      <workItem from="1719819216536" duration="754000" />
+      <workItem from="1721124863354" duration="383000" />
+      <workItem from="1721438731393" duration="323000" />
+      <workItem from="1721894350824" duration="866000" />
+      <workItem from="1721985707549" duration="613000" />
+      <workItem from="1723442288205" duration="1117000" />
+      <workItem from="1723456632791" duration="291000" />
+      <workItem from="1723520592299" duration="737000" />
+      <workItem from="1723692718159" duration="637000" />
+      <workItem from="1723711652888" duration="2870000" />
+      <workItem from="1723772821814" duration="1802000" />
+      <workItem from="1724056635938" duration="2882000" />
+      <workItem from="1724118434032" duration="4473000" />
+      <workItem from="1724147903506" duration="1223000" />
+      <workItem from="1724207346871" duration="717000" />
+      <workItem from="1724660878612" duration="5825000" />
+      <workItem from="1724723503616" duration="9119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="311146000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1408" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19713831" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3654902" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35137254" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.30431372" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_longExp.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_FiLM_traffic.coverage" NAME="run_FiLM_traffic Coverage Results" MODIFIED="1713966108065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_traffic_MGN_sl96_id_wl_test_0531_2.coverage" NAME="run_traffic_MGN_sl96_id_wl_test_0531_2 Coverage Results" MODIFIED="1717135582597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_Solar_MGN_0204.coverage" NAME="run_Solar_MGN_0204 Coverage Results" MODIFIED="1707060393419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_DLinear_traffic.coverage" NAME="run_DLinear_traffic Coverage Results" MODIFIED="1716970832754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_ETTh1_MGN_test_copy.coverage" NAME="run_ETTh1_MGN_test_copy Coverage Results" MODIFIED="1707041156482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_ETTh1_MGN_test_lr.coverage" NAME="run_ETTh1_MGN_test_lr Coverage Results" MODIFIED="1707042137046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_traffic_MGN_sl96_id_wl_test_0531_1.coverage" NAME="run_traffic_MGN_sl96_id_wl_test_0531_1 Coverage Results" MODIFIED="1717145560577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_iTransformer_ECL.coverage" NAME="run_iTransformer_ECL Coverage Results" MODIFIED="1707652901303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_MICN_ETTm1.coverage" NAME="run_MICN_ETTm1 Coverage Results" MODIFIED="1713966141078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$exp_long_term_forecasting.coverage" NAME="exp_long_term_forecasting Coverage Results" MODIFIED="1707039941298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exp" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1714101446905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_iTransformer_traffic.coverage" NAME="run_iTransformer_traffic Coverage Results" MODIFIED="1708307364255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_PatchTST_traffic.coverage" NAME="run_PatchTST_traffic Coverage Results" MODIFIED="1717125782887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_traffic_MGN_test2.coverage" NAME="run_traffic_MGN_test2 Coverage Results" MODIFIED="1708858670050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_MICN_ETTm2.coverage" NAME="run_MICN_ETTm2 Coverage Results" MODIFIED="1713966144189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_traffic_MGN_sl336_wl_0521.coverage" NAME="run_traffic_MGN_sl336_wl_0521 Coverage Results" MODIFIED="1717063743218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MIEL_0813_github$run.coverage" NAME="run Coverage Results" MODIFIED="1724741100146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_MICN_ECL.coverage" NAME="run_MICN_ECL Coverage Results" MODIFIED="1710932335418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_iTransformer_Solar.coverage" NAME="run_iTransformer_Solar Coverage Results" MODIFIED="1707652763047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_traffic_MGN_test_copy.coverage" NAME="run_traffic_MGN_test_copy Coverage Results" MODIFIED="1709306073206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_ECL_MGN_slwl_0409.coverage" NAME="run_ECL_MGN_slwl_0409 Coverage Results" MODIFIED="1714354631136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MIEL_0813_github$run_longExp.coverage" NAME="run_longExp Coverage Results" MODIFIED="1724738727719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run.coverage" NAME="run Coverage Results" MODIFIED="1707647892829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_ETTh1_MGN_test.coverage" NAME="run_ETTh1_MGN_test Coverage Results" MODIFIED="1707058605478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_TimesNet_Solar.coverage" NAME="run_TimesNet_Solar Coverage Results" MODIFIED="1708401088616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_iTransformer_weather.coverage" NAME="run_iTransformer_weather Coverage Results" MODIFIED="1707653096703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_traffic_MGN_test_0530.coverage" NAME="run_traffic_MGN_test_0530 Coverage Results" MODIFIED="1717064472188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MGN_23_02_04$run_DLinear_ETTm1.coverage" NAME="run_DLinear_ETTm1 Coverage Results" MODIFIED="1721124923139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>dec_out.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.reduce(enc_out.permute(0, 2, 1)).permute(0, 2, 1).shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>enc_out.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x_enc.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>setting[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>setting</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(df_raw)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(train_loader)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(train_data)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/run_DLinear_traffic.py" />
+    <entry file="file://$PROJECT_DIR$/run_MGN_ETTm1.py" />
+    <entry file="file://$PROJECT_DIR$/scripts/long_term_forecast/ETT_script/MICN_ETTm1.sh" />
+    <entry file="file://$PROJECT_DIR$/scripts/long_term_forecast/ETT_script/iTransformer_ETTh2.sh" />
+    <entry file="file://$PROJECT_DIR$/run_iTransformer_ETTm1.py" />
+    <entry file="file://$PROJECT_DIR$/run_FiLM_ETTm1.py" />
+    <entry file="file://$PROJECT_DIR$/models/FiLM.py" />
+    <entry file="file://$PROJECT_DIR$/scripts/long_term_forecast/ETT_script/FiLM_ETTm1.sh" />
+    <entry file="file://$PROJECT_DIR$/run_PatchTST_ETTm1.py" />
+    <entry file="file://$PROJECT_DIR$/run_MICN_ETTm1.py" />
+    <entry file="file://$PROJECT_DIR$/run_TimesNet_ETTm1.py" />
+    <entry file="file://$PROJECT_DIR$/models/DLinear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_traffic_MGN_sl96_id_wl_test_0531_2.py" />
+    <entry file="file://$PROJECT_DIR$/run_PatchTST_traffic.py" />
+    <entry file="file://$PROJECT_DIR$/run_traffic_MGN_test_0530.py" />
+    <entry file="file://$PROJECT_DIR$/run_traffic_MGN_sl96_id_wl_test_0531_1.py" />
+    <entry file="file://$PROJECT_DIR$/run_ETTm1_MGN_Ablations_for_1.py" />
+    <entry file="file://$PROJECT_DIR$/run_ETTh1_MGN_0527.py" />
+    <entry file="file://$PROJECT_DIR$/run_traffic_MGN_sl336_res_0601.py" />
+    <entry file="file://$PROJECT_DIR$/models/TimesNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/FEDformer.py" />
+    <entry file="file://$PROJECT_DIR$/run_Solar_MGN_wl_0603.py" />
+    <entry file="file://$PROJECT_DIR$/run_traffic_MGN_sl336_wl_0521.py" />
+    <entry file="file://$PROJECT_DIR$/models/MGN_Linear_affine.py" />
+    <entry file="file://$PROJECT_DIR$/layers/Embed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layers/ETSformer_EncDec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layers/FourierCorrelation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100">
+          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+          <folding>
+            <element signature="e#71#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_DLinear_ETTm1.py" />
+    <entry file="file://$PROJECT_DIR$/models/FreTS.py" />
+    <entry file="file://$PROJECT_DIR$/data_provider/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Time-Series-Library-main_2408/Time-Series-Library-main/exp/exp_long_term_forecasting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="94" column="17" selection-start-line="94" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_provider/data_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp/exp_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MGN-23-02.04/run_Solar_MGN_wl_0603.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="193" column="87" lean-forward="true" selection-start-line="193" selection-start-column="46" selection-end-line="193" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2349">
+          <caret line="117" column="36" lean-forward="true" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp/exp_long_term_forecasting_ori.py" />
+    <entry file="file://$PROJECT_DIR$/../Time-Series-Library-main_2408/Time-Series-Library-main/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/PatchTST_ETTh1.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp/exp_long_term_forecasting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="258" column="43" selection-start-line="258" selection-start-column="43" selection-end-line="258" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Time-Series-Library-main_2408/Time-Series-Library-main/scripts/long_term_forecast/ETT_script/iTransformer_ETTh2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/print_args.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/TimesNet_ETTh1.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MGN-23-02.04/models/MGN_Linear_affine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="150" column="36" lean-forward="true" selection-start-line="150" selection-start-column="36" selection-end-line="150" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MGN-23-02.04/models/MGN_Linear_affine_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="138" column="19" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/MILE_ETTh1.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_provider/data_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="112" column="42" lean-forward="true" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#6555#12600#0" />
+            <element signature="e#12650#19022#0" />
+            <element signature="e#19071#24384#0" />
+            <element signature="e#21742#24202#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/MILE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_longExp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
