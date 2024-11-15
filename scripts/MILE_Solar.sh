@@ -10,25 +10,27 @@ fi
 
 model_id_name=Solar
 model_name=MILE
-data=custom_new
-
+data=Solar_new
+root_path_name=../all_datasets/Solar-Energy/
+bs=32
+lr=0.005
 
 python -u run_longExp.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/Solar-Energy/ \
-  --data_path solar_AL.csv \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
   --model_id $model_id_name'_'96'_'96 \
   --model $model_name \
   --data $data \
   --features M \
   --seq_len 96 \
-  --label_len 48 \
   --pred_len 96 \
-  --window_len 96 192 384 \
-  --train_epochs 50 \
+  --window_len 96 192 384 768 1536 3072 \
+  --train_epochs 30 \
+  --learning_rate $lr \
+  --batch_size $bs \
   --individual \
-  --factor 3 \
   --enc_in 137 \
   --dec_in 137 \
   --c_out 137 \
@@ -38,8 +40,8 @@ python -u run_longExp.py \
 python -u run_longExp.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/Solar-Energy/ \
-  --data_path solar_AL.csv \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
   --model_id $model_id_name'_'96'_'192 \
   --model $model_name \
   --data $data \
@@ -47,9 +49,10 @@ python -u run_longExp.py \
   --seq_len 96 \
   --label_len 48 \
   --pred_len 192 \
-  --window_len 96 192 384 \
-  --train_epochs 50 \
-  --individual \
+  --window_len 96 192 384 768 1536 3072 \
+  --train_epochs 30 \
+  --learning_rate $lr \
+  --batch_size $bs \
   --factor 3 \
   --enc_in 137 \
   --dec_in 137 \
@@ -60,8 +63,8 @@ python -u run_longExp.py \
 python -u run_longExp.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/Solar-Energy/ \
-  --data_path solar_AL.csv \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
   --model_id $model_id_name'_'96'_'336 \
   --model $model_name \
   --data $data \
@@ -69,9 +72,10 @@ python -u run_longExp.py \
   --seq_len 96 \
   --label_len 48 \
   --pred_len 336 \
-  --window_len 96 192 384 \
+  --window_len 96 192 384 768 1536 3072 \
   --train_epochs 50 \
-  --individual \
+  --learning_rate $lr \
+  --batch_size $bs \
   --factor 3 \
   --enc_in 137 \
   --dec_in 137 \
@@ -82,19 +86,18 @@ python -u run_longExp.py \
 python -u run_longExp.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/Solar-Energy/ \
-  --data_path solar_AL.csv \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
   --model_id $model_id_name'_'96'_'720 \
   --model $model_name \
   --data $data \
   --features M \
   --seq_len 96 \
-  --label_len 48 \
-  --pred_len 336 \
-  --window_len 96 192 384 \
-  --train_epochs 50 \
-  --individual \
-  --factor 3 \
+  --pred_len 720 \
+  --window_len 96 192 384 768 1536 3072 \
+  --train_epochs 30 \
+  --learning_rate $lr \
+  --batch_size $bs \
   --enc_in 137 \
   --dec_in 137 \
   --c_out 137 \
@@ -104,19 +107,18 @@ python -u run_longExp.py \
 python -u run_longExp.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/Solar-Energy/ \
-  --data_path solar_AL.csv \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
   --model_id $model_id_name'_'96'_'960 \
   --model $model_name \
   --data $data \
   --features M \
   --seq_len 96 \
-  --label_len 48 \
-  --pred_len 336 \
-  --window_len 96 192 384 \
-  --train_epochs 50 \
-  --individual \
-  --factor 3 \
+  --pred_len 960 \
+  --window_len 96 192 384 768 1536 3072 \
+  --train_epochs 30 \
+  --learning_rate $lr \
+  --batch_size $bs \
   --enc_in 137 \
   --dec_in 137 \
   --c_out 137 \
@@ -126,19 +128,18 @@ python -u run_longExp.py \
 python -u run_longExp.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/Solar-Energy/ \
-  --data_path solar_AL.csv \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
   --model_id $model_id_name'_'96'_'1080 \
   --model $model_name \
   --data $data \
   --features M \
   --seq_len 96 \
-  --label_len 48 \
   --pred_len 1080 \
-  --window_len 96 192 384 \
-  --train_epochs 50 \
-  --individual \
-  --factor 3 \
+  --window_len 96 192 384 768 1536 3072 \
+  --train_epochs 30 \
+  --learning_rate $lr \
+  --batch_size $bs \
   --enc_in 137 \
   --dec_in 137 \
   --c_out 137 \
@@ -148,19 +149,18 @@ python -u run_longExp.py \
 python -u run_longExp.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/Solar-Energy/ \
-  --data_path solar_AL.csv \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
   --model_id $model_id_name'_'96'_'1200 \
   --model $model_name \
   --data $data \
   --features M \
   --seq_len 96 \
-  --label_len 48 \
   --pred_len 1200 \
-  --window_len 96 192 384 \
-  --train_epochs 50 \
-  --individual \
-  --factor 3 \
+  --window_len 96 192 384 768 1536 3072 \
+  --train_epochs 30 \
+  --learning_rate $lr \
+  --batch_size $bs \
   --enc_in 137 \
   --dec_in 137 \
   --c_out 137 \
@@ -170,19 +170,18 @@ python -u run_longExp.py \
 python -u run_longExp.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/Solar-Energy/ \
-  --data_path solar_AL.csv \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
   --model_id $model_id_name'_'96'_'1440 \
   --model $model_name \
   --data $data \
   --features M \
   --seq_len 96 \
-  --label_len 48 \
-  --pred_len 1080 \
-  --window_len 96 192 384 \
-  --train_epochs 50 \
-  --individual \
-  --factor 3 \
+  --pred_len 1440 \
+  --window_len 96 192 384 768 1536 3072 \
+  --train_epochs 30 \
+  --learning_rate $lr \
+  --batch_size $bs \
   --enc_in 137 \
   --dec_in 137 \
   --c_out 137 \
@@ -192,18 +191,18 @@ python -u run_longExp.py \
 python -u run_longExp.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/Solar-Energy/ \
-  --data_path solar_AL.csv \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
   --model_id $model_id_name'_'96'_'1560 \
   --model $model_name \
   --data $data \
   --features M \
   --seq_len 96 \
-  --label_len 48 \
   --pred_len 1560 \
-  --window_len 96 192 384 \
-  --train_epochs 50 \
-  --individual \
+  --window_len 96 192 384 768 1536 3072 \
+  --train_epochs 30 \
+  --learning_rate $lr \
+  --batch_size $bs \
   --factor 3 \
   --enc_in 137 \
   --dec_in 137 \
@@ -214,19 +213,39 @@ python -u run_longExp.py \
 python -u run_longExp.py \
   --task_name long_term_forecast \
   --is_training 1 \
-  --root_path ./dataset/Solar-Energy/ \
-  --data_path solar_AL.csv \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
   --model_id $model_id_name'_'96'_'1680 \
   --model $model_name \
   --data $data \
   --features M \
   --seq_len 96 \
-  --label_len 48 \
   --pred_len 1680 \
-  --window_len 96 192 384 \
-  --train_epochs 50 \
-  --individual \
-  --factor 3 \
+  --window_len 96 192 384 768 1536 3072 \
+  --train_epochs 30 \
+  --learning_rate $lr \
+  --batch_size $bs \
+  --enc_in 137 \
+  --dec_in 137 \
+  --c_out 137 \
+  --des 'Exp' \
+  --itr 1
+
+python -u run_longExp.py \
+  --task_name long_term_forecast \
+  --is_training 1 \
+  --root_path $root_path_name \
+  --data_path solar_AL.txt \
+  --model_id $model_id_name'_'96'_'2880 \
+  --model $model_name \
+  --data $data \
+  --features M \
+  --seq_len 96 \
+  --pred_len 2880 \
+  --window_len 96 192 384 768 1536 3072 \
+  --train_epochs 30 \
+  --learning_rate $lr \
+  --batch_size $bs \
   --enc_in 137 \
   --dec_in 137 \
   --c_out 137 \

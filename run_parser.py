@@ -37,22 +37,25 @@ if __name__ == '__main__':
     parser.add_argument('--checkpoints', type=str, default='./checkpoints/', help='location of model checkpoints')
 
     # forecasting task
-    parser.add_argument('--window_len', type=int, nargs='+', default=[96, 192, 384], help='Multi-scale input sequence length')
     parser.add_argument('--seq_len', type=int, default=96, help='input sequence length')
     parser.add_argument('--label_len', type=int, default=48, help='start token length')
     parser.add_argument('--pred_len', type=int, default=96, help='prediction sequence length')
     parser.add_argument('--seasonal_patterns', type=str, default='Monthly', help='subset for M4')
     parser.add_argument('--inverse', action='store_true', help='inverse output data', default=False)
 
-    # model define
+    # MILE model parameters
+    parser.add_argument('--window_len', type=int, nargs='+', default=[96, 192, 384], help='Multi-scale input sequence length')
     parser.add_argument('--individual', action='store_true', default=False,
-                        help='DLinear: a linear layer for each variate(channel) individually')
+                        help='a linear layer for each variate(channel) individually')
+    parser.add_argument('--affine', type=bool, default=True, help='learnable parameters affine in Instance Norm')
     parser.add_argument('--backbone', type=str, default='Linear', help='model backbone')
+
+    # model define
     parser.add_argument('--top_k', type=int, default=5, help='for TimesBlock')
-    parser.add_argument('--num_kernels', type=int, default=6, help='for Inception')
     parser.add_argument('--enc_in', type=int, default=7, help='encoder input size')
     parser.add_argument('--dec_in', type=int, default=7, help='decoder input size')
     parser.add_argument('--c_out', type=int, default=7, help='output size')
+    parser.add_argument('--num_kernels', type=int, default=6, help='for Inception')
     parser.add_argument('--d_model', type=int, default=512, help='dimension of model')
     parser.add_argument('--n_heads', type=int, default=8, help='num of heads')
     parser.add_argument('--e_layers', type=int, default=2, help='num of encoder layers')
@@ -63,7 +66,7 @@ if __name__ == '__main__':
     parser.add_argument('--distil', action='store_false',
                         help='whether to use distilling in encoder, using this argument means not using distilling',
                         default=True)
-    parser.add_argument('--dropout', type=float, default=0, help='dropout')
+    parser.add_argument('--dropout', type=float, default=0.1, help='dropout')
     parser.add_argument('--embed', type=str, default='timeF',
                         help='time features encoding, options:[timeF, fixed, learned]')
     parser.add_argument('--activation', type=str, default='gelu', help='activation')
@@ -133,9 +136,9 @@ if __name__ == '__main__':
     Exp = Exp_Long_Term_Forecast
 
     # Data param
-    args.data = 'custom_new'  # 'ETTh1'
-    args.root_path = 'dataset/weather'
-    args.data_path = 'weather.csv'
+    args.data = 'custom_new'#'ETTh1_MI'  # 'ETTh1'
+    args.root_path = '../all_datasets/traffic/'#ETT-small/'
+    args.data_path = 'traffic.csv'#'ETTh1.csv'
 
     # basic config
     args.task_name = 'long_term_forecast'
@@ -144,65 +147,68 @@ if __name__ == '__main__':
     # training param
     args.model = 'MILE'
     args.train_epochs = 30
+    args.patience = 5
     args.learning_rate = 0.001
 
     # model param
-    args.individual = True
-    args.enc_in = 21
-    args.dec_in = 21
-    args.c_out = 21
+    args.individual = False
+    args.enc_in = 862
+    args.dec_in = 862
+    args.c_out = 862
     args.batch_size = 32
     args.seq_len = 96
     args.pred_len = 96
-    args.window_len = [1, 2, 3, 4, 5]
+    args.window_len = [1, 2, 4]
     args.window_len = list(args.seq_len * np.array(args.window_len))
 
     print('Args in experiment:')
     print_args(args)
 
     if args.is_training:
-        for window_len in [
-            [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-            [1, 2, 3, 4, 5, 6, 7, 8, 9],
-            [1, 2, 3, 4, 5, 6, 7, 8],
-            [1, 2, 3, 4, 5, 6, 7],
-            [1, 2, 3, 4, 5, 6],
-            [1, 2, 3, 4],
-            [1, 2, 3],
-            [1, 2],
-            [1, 2, 4],
-            [1, 2, 4, 8],
-            [1, 2, 4, 8, 16],
-            [2, 4],
-            [2, 4, 6],
-            [2, 4, 6, 8],
-            [2, 4, 6, 8, 10],
-            [2, 4, 6, 8, 10, 12]
-        ]:
-            args.window_len = list(args.seq_len * np.array(window_len))
-            setting = '{}_{}_{}_{}_{}_ft{}_wl{}_id{}_sl{}_pl{}_dm{}_df{}_lr{}_bs{}'.format(
-                args.task_name,
-                args.model_id,
-                args.data,
-                args.model,
-                args.backbone,
-                args.features,
-                args.window_len,
-                args.individual,
-                args.seq_len,
-                args.pred_len,
-                args.d_model,
-                args.d_ff,
-                args.learning_rate,
-                args.batch_size),
+        for pred_len in [96, 192, 336, 720]:#96,
+            args.pred_len = pred_len
+            for batch_size in [128]:
+                args.batch_size = batch_size
+                if batch_size == 32:
+                    args.learning_rate = 0.001
+                if batch_size == 128:
+                    args.learning_rate = 0.005
+                for affine in [False]:
+                    args.affine = affine
 
-            exp = Exp(args)  # set experiments
-            print('>>>>>>>start training : {}>>>>>>>>>>>>>>>>>>>>>>>>>>'.format(setting))
-            exp.train(setting[0])
+                    for window_len in [
+                        # [1, 2, 4],
+                        [1, 2],
+                        [1, 2, 4],
+                        [1, 2, 4, 8],
+                        [1, 2, 4, 8, 16],
+                        # [1, 2, 4, 8, 16, 32],
+                    ]:
+                        args.window_len = list(args.seq_len * np.array(window_len))
 
-            print('>>>>>>>testing : {}<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'.format(setting))
-            exp.test(setting[0])
-            torch.cuda.empty_cache()
+                        setting = '{}_{}_{}_{}_{}_ft{}_wl{}_id{}_sl{}_pl{}_dm{}_df{}_lr{}_bs{}'.format(
+                            args.task_name,
+                            args.model_id,
+                            args.data,
+                            args.model,
+                            args.backbone,
+                            args.features,
+                            args.window_len,
+                            args.individual,
+                            args.seq_len,
+                            args.pred_len,
+                            args.d_model,
+                            args.d_ff,
+                            args.learning_rate,
+                            args.batch_size),
+
+                        exp = Exp(args)  # set experiments
+                        print('>>>>>>>start training : {}>>>>>>>>>>>>>>>>>>>>>>>>>>'.format(setting))
+                        exp.train(setting[0])
+
+                        print('>>>>>>>testing : {}<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'.format(setting))
+                        exp.test(setting[0])
+                        torch.cuda.empty_cache()
     else:
         ii = 0
         setting = '{}_{}_{}_{}_{}_ft{}_wl{}_id{}_sl{}_pl{}_dm{}_df{}_lr{}_bs{}'.format(
