@@ -1,0 +1,25 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+预热 - 平均延迟: 12.45ms
+
+ Performance counter stats for 'system wide':
+
+          3,386.05 Joules power/energy-pkg/                                                     
+            212.94 Joules power/energy-ram/                                                     
+                 0        mem-loads                                                             
+
+      77.147617708 seconds time elapsed
+
